@@ -2,24 +2,24 @@ public class Main {
 
     public static void main(String[] args) {
         
-        ListaCircular<String> minhListaCircular = new ListaCircular<>();
+        ListaCircular<String> minhaListaCircular = new ListaCircular<>();
 
-        minhListaCircular.add("c0");
-        System.out.println(minhListaCircular);
-        minhListaCircular.remove(0);
-        System.out.println(minhListaCircular);
-        minhListaCircular.add("c1");
-        minhListaCircular.add("c2");
-        minhListaCircular.add("c3");
-        System.out.println(minhListaCircular);
+        minhaListaCircular.add("c0");
+        System.out.println(minhaListaCircular);
+        minhaListaCircular.remove(0);
+        System.out.println(minhaListaCircular);
+        minhaListaCircular.add("c1");
+        minhaListaCircular.add("c2");
+        minhaListaCircular.add("c3");
+        System.out.println(minhaListaCircular);
 
-        System.out.println(minhListaCircular.get(0));
-        System.out.println(minhListaCircular.get(1));
-        System.out.println(minhListaCircular.get(2));
-        System.out.println(minhListaCircular.get(3));
+        System.out.println(minhaListaCircular.get(0));
+        System.out.println(minhaListaCircular.get(1));
+        System.out.println(minhaListaCircular.get(2));
+        System.out.println(minhaListaCircular.get(3));
 
         for(int i = 0; i < 20; i++){
-            System.out.println(minhListaCircular.get(i));
+            System.out.println(minhaListaCircular.get(i));
         }
 
     }
